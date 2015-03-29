@@ -16,3 +16,11 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
+
+body > audio {
+    position: fixed;
+    bottom: 20px;
+    width: 60%;
+    left: 20%;
+}
