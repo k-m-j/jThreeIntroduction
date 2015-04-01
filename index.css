@@ -17,8 +17,7 @@ body {
 	background-repeat: no-repeat;
 }
 
-
-body > audio {
+body > button {
     position: fixed;
     bottom: 20px;
     width: 60%;

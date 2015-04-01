@@ -5,10 +5,9 @@ jThree( function( j3 ) {
 	j3.Trackball();
 	j3.Stats();
 
-    jThree.MMD.sync('#audio');
 
 /*
-	j3( "mesh" ).animate( function() {
+	j3( "mesh" ).click( function() {
 
 		var mode = + ( j3( this ).attr( "geo" ) == "#geo0" );
 		j3( this ).attr( "geo", "#geo" + mode )
@@ -17,10 +16,10 @@ jThree( function( j3 ) {
 	} );
 */
 
-
-	$(function () {
-		j3( "#cube" ).animate( { rotateY: "-=50"}, 10000);
-	});
+	$("#btn").click( function() {
+//		j3("#cube").attr( "mtl", "#mtlBlue").animate( { mtlColor: "#00f" }, 500 );
+		j3("#cube").attr( "mtl", "#mtlBlue");
+	} );
 
 
 },
