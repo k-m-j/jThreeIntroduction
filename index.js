@@ -17,7 +17,6 @@ jThree( function( j3 ) {
 */
 
 	$("#btn").click( function() {
-//		j3("#cube").attr( "mtl", "#mtlBlue").animate( { mtlColor: "#00f" }, 500 );
 		j3("#cube").attr( "mtl", "#mtlBlue");
 	} );
 

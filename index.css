@@ -17,7 +17,7 @@ body {
 	background-repeat: no-repeat;
 }
 
-body > button {
+#btn {
     position: fixed;
     bottom: 20px;
     width: 60%;
