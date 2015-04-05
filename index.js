@@ -15,7 +15,14 @@ jThree( function( j3 ) {
 
 	} );
 */
+/*
+	$("#btn").click(function(){
+		var text = $("#text").val();
+		j3("import").contents().find('#text').html(text);
 
+		j3('#txr').attr('html','#text');
+	});
+*/
 },
 function() {
 	alert( "このブラウザはWebGLに対応していません。" );
