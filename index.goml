@@ -9,7 +9,7 @@
 		<scene>
 			<mesh id="cube" geo="#geo" mtl="#mtl" audio="html audio"></mesh>
 
-			<camera style="cameraFar: 100000; position: 50 50 150; lookAtY: 7;" />
+			<camera style="cameraFar: 100000; position: 50 50 50; lookAtY: 7;" />
 			<light type="Amb" style="lightColor: #222;" />
 			<light type="Dir" style="position: 1 3 5;" />
 			

@@ -15,6 +15,7 @@ jThree( function( j3 ) {
 
 	} );
 */
+	j3("camera").animate({positionZ: 500}, 10000);
 
 },
 function() {
