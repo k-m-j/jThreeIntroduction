@@ -1,14 +1,13 @@
 <goml>
 	<head>
 
-		<geo id="geo" type="Sphere" param="3 64 64" />
-		<mtl id="mtlRed" type="MeshLambert" param="color: #f00; ambient: #300;" />
-		<mtl id="mtlBlue" type="MeshLambert" param="color: #0ff; ambient: #300;" />
-		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #fff;"/>
+		<rdr frame="#jThreeContents" camera="camera:first" param="antialias: true; clearAlpha: 0;"/>
 	</head>
 	<body>
 		<scene>
-			<mesh id="cube" geo="#geo" mtl="#mtlRed" style=""></mesh>
+
+			<mmd id="miku" model="model/miku/index.pmx" motion="motion/melt.vmd" ></mdd>
+<!--			<obj model="stage/gekido/index.x" style="scale: 10; positionY: -46.5; rotateY: 1.57;"/>  -->
 
 			<camera style="cameraFar: 100000; position: 6 13 100; lookAtY: 7;" />
 			<light type="Amb" style="lightColor: #222;" />

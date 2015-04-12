@@ -1,9 +1,10 @@
 jThree( function( j3 ) {
 
 	$( "#loading" ).remove();
+	jThree.MMD.play();
 
 	j3.Trackball();
-	j3.Stats();
+//	j3.Stats();
 
 
 /*
