@@ -4,7 +4,8 @@
 	</head>
 	<body>
 		<scene>
-			<mmd id="miku" model="model/miku/index.pmx" motion="motion/melt.vmd" style=""></mmd>
+		    <!-- motionディレクトリにモーションのデータを用意して下さい。 -->
+			<mmd model="model/pmx_tohoku_zunko/東北ずん子 公式服モデル.pmx" motion="motion/sample.vmd"/>
 
 			<camera style="cameraFar: 100000; position: 6 13 100; lookAtY: 7;" />
 			<light type="Amb" style="lightColor: #222;" />
