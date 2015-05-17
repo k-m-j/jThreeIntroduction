@@ -16,7 +16,7 @@
 	</head>
 	<body>
 		<scene>
-			<mmd model="model/miku/index.pmx"/>
+			<mmd model="model/pmx_tohoku_zunko/東北ずん子 公式服モデル.pmx"/>
 
 			<sprite mtl="#mtl" style="scale: 6; position: 10 10 0;"/>
 
