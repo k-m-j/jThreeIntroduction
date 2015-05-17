@@ -4,6 +4,9 @@
 	</head>
 	<body>
 		<scene>
+			<mmd model="model/pmx_tohoku_zunko/東北ずん子 公式服モデル.pmx"/>
+
+			<mmd model="stage/TempoStageD/ステージD.pmx"/>
 
 			<camera style="cameraFar: 10000; position: 2 18 30; lookAtY: 10;">
 			    <light type="Dir" style="position: 1 3 5;" />
