@@ -6,8 +6,7 @@
 	<body>
 		<scene>
 
-			<mmd id="miku" model="model/miku/index.pmx" motion="motion/melt.vmd" ></mdd>
-<!--			<obj model="stage/gekido/index.x" style="scale: 10; positionY: -46.5; rotateY: 1.57;"/>  -->
+			<mmd model="model/pmx_tohoku_zunko/東北ずん子 公式服モデル.pmx"/>
 
 			<camera style="cameraFar: 100000; position: 6 13 100; lookAtY: 7;" />
 			<light type="Amb" style="lightColor: #222;" />
