@@ -1,9 +1,14 @@
 <goml>
 	<head>
+		<txr id="txr" src="img/earth.jpg" />
+		<geo id="geo" type="Sphere" param="3 64 64" />
+		<mtl id="mtl" type="MeshPhong" param="map: #txr; specular: #fff;" />	
 		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #fff;" />
 	</head>
 	<body>
 		<scene>
+
+			<mesh id="earth" geo="#geo" mtl="#mtl" style=""></mesh>
 
 			<camera style="cameraFar: 10000; position: 2 18 30; lookAtY: 10;">
 			    <light type="Dir" style="position: 1 3 5;" />
