@@ -8,7 +8,11 @@
 	<body>
 		<scene>
 
-			<mesh id="earth" geo="#geo" mtl="#mtl" style=""></mesh>
+			<mmd model="model/pmx_tohoku_zunko/東北ずん子 公式服モデル.pmx" motion="motion/メルトモーション/メルトモーション.vmd"/>
+
+			<obj id="earthWrapper" style="">
+				<mesh geo="#geo" mtl="mtl" style="positionX: 20;"/>
+			</obj>
 
 			<camera style="cameraFar: 10000; position: 2 18 30; lookAtY: 10;">
 			    <light type="Dir" style="position: 1 3 5;" />
