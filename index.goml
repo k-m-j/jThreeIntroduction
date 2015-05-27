@@ -7,8 +7,8 @@
 	</head>
 	<body>
 		<scene>
-            <!-- motionディレクトリにモーションのデータを用意して下さい。 -->
-            <mmd model="model/pmx_tohoku_zunko/東北ずん子 公式服モデル.pmx" motion="motion/sample/sample.vmd"/>
+
+            <mmd model="model/pmx_tohoku_zunko/東北ずん子 公式服モデル.pmx" motion="motion/メルトモーション/メルトモーション.vmd"/>
 
 　　　　　　　<mesh id="cube" geo="#geo" mtl="#mtl" style=""></mesh>
 
