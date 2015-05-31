@@ -1,4 +1,8 @@
 <goml>
+<!--
+Copyright 2015
+motion:pokkyさん
+-->
 	<head>
 		<txr id="txr" src="img/earth.jpg" />
 		<geo id="geo" type="Sphere" param="3 64 64" />
