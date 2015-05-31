@@ -2,7 +2,7 @@
 	<head>
 
 		<geo id="geo" type="Cube" param="10 10 10" />
-		<mtl id="mtl" type="MeshLambert" param="color: #f00; ambient: #300;" />
+		<mtl id="mtl" type="MeshLambert" param="color: #f00; ambient: #333;" />
 		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #fff;"/>
 	</head>
 	<body>
