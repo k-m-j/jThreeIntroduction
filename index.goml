@@ -1,4 +1,8 @@
 <goml>
+<!--
+Copyright 2015
+motion:pokkyさん
+-->
 	<head>
         <geo id="geo" type="Sphere" param="3 64 64" />
         <mtl id="mtl" type="MeshLambert" param="color: #f00; specular: #fff; ambient: #300;" />
