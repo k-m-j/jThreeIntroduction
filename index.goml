@@ -1,4 +1,8 @@
 <goml>
+<!--
+Copyright 2015
+stage:黒羽紫鴉さん
+-->
 	<head>
 		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #fff;" />
 	</head>
